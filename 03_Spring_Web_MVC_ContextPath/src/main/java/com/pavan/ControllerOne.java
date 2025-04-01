@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-//@RequestMapping("/first")
-@RequestMapping
+@RequestMapping("/first")
+//@RequestMapping// if you specify this then the controller will come here for the default url request
+// and this will call the general wish method because that is binded for default get mapping
 public class ControllerOne {
 		
 	@GetMapping("/con")
