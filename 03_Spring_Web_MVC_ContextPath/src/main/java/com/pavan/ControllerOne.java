@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/first")
+//@RequestMapping("/first")
+@RequestMapping
 public class ControllerOne {
 		
 	@GetMapping("/con")
