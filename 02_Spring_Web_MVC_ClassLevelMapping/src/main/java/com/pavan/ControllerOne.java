@@ -16,7 +16,7 @@ public class ControllerOne {
 		
 		return "index";
 	}
-	@RequestMapping
+	@GetMapping
 	public String genaralWish(Model model)
 	{
 		model.addAttribute("msg", "Genaral wish of the Controller one");

@@ -15,4 +15,12 @@ public class ControllerTwo {
 		model.addAttribute("msg", "Specifice Wish of the Controller Two");
 		return "index";
 	}
+	@GetMapping
+	public String genaralwish(Model model)
+	{
+		model.addAttribute("msg", "Specifice Wish of the Controller Two");
+		return "index";
+	}
+	
+	
 }
