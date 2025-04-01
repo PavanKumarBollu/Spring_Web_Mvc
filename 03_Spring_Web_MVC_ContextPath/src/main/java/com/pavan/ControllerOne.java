@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/first")
 public class ControllerOne {
 		
-	@GetMapping("/controller1")
+	@GetMapping("/con")
 	public String wish(Model model)
 	{
 		model.addAttribute("msg", "Specific wish of the Controller One");
