@@ -3,9 +3,26 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Book Store</title>
 </head>
 <body>
-<h1> ${msg}</h1>
+	<h1>Course Info :: </h1>
+
+		<table border='2'>
+			<tr>
+				<td>Course ID </td>
+				<td>${courseId}</td>
+			</tr>
+			<tr>
+				<td>Course Name </td>
+				<td>${courseName}</td>
+			</tr>
+			<tr>
+				<td>Course Duration </td>
+				<td>${duration}</td>
+			</tr>
+			
+			
+		</table>
 </body>
 </html>
