@@ -11,15 +11,15 @@
 	<table border='2'>
 		<tr>
 			<td>Book Name </td>
-			<td></td>
+			<td>${book.bname}</td>
 		</tr>
 		<tr>
 			<td>Book Author </td>
-			<td></td>
+			<td>${book.author}</td>
 		</tr>
 		<tr>
 			<td>Book Price </td>
-			<td></td>
+			<td>${book.price}</td>
 		</tr>
 		
 	</table>
