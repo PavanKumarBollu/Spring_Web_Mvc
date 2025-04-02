@@ -7,9 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class BooksController {
 	@GetMapping("/register")
-	public String bookRegistration(Model model)
-	{
-		
+	public String bookRegistration(Model model) {
+
 		return "index";
 	}
 }

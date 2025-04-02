@@ -8,6 +8,7 @@
 <body>
 	<h1>Book Info :: </h1>
 
+	<form>
 		<table border='2'>
 			<tr>
 				<td>Book Name </td>
@@ -23,10 +24,9 @@
 			</tr>
 			<tr>
 				
-				<td><input type = "submit" value="Submit" /></td>
+				<td colspan=2><input type = "submit" value="Submit" /></td>
 			</tr>
-			
-			
 		</table>
+	</from>
 </body>
 </html>
