@@ -21,6 +21,10 @@
 				<td>Book Price </td>
 				<td><input type = "text" name="price" /></td>
 			</tr>
+			<tr>
+				
+				<td><input type = "submit" value="Submit" /></td>
+			</tr>
 			
 			
 		</table>
