@@ -12,7 +12,7 @@ public class PathParams {
 	public String getBookDetails(@PathVariable("bName")String bName, @PathVariable("bAuthor") String bAuthor, Model model)
 	{
 		
-		model.addAttribute("query" , bName+" Was Designed By " + bAuthor + " ");
+		model.addAttribute("query" , bName+" Book Was Designed By " + bAuthor + " To Make Learning Java Easy ");
 		return "index";
 	}
 }
