@@ -8,7 +8,7 @@
 <body>
 	<h1>Book Info :: </h1>
 
-	<form action="/books" method = "Post">
+	<form action="/books" method = "Post" modelAttribute="book">
 		<table border='2'>
 			<tr>
 				<td>Book Name </td>

@@ -3,6 +3,7 @@ package com.pavan.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 import com.pavan.binding.Books;
 
@@ -15,8 +16,9 @@ public class BooksController {
 	}
 	
 	@GetMapping("/books")
-	public String getBooks(Books book,Model model)
+	public String getBooks(@ModelAttribute Books book,Model model)
 	{
+		model.addAttribute("book", book);
 		return "books";
 	}
 }
