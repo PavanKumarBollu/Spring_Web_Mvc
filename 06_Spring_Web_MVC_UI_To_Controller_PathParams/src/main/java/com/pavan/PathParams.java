@@ -1,5 +1,8 @@
 package com.pavan;
 
-public class PathParams {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class PathParams {
+	
 }
