@@ -2,11 +2,12 @@ package com.pavan;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class StudentController {
 	
-	
+	@GetMapping(value = "/stdinfo")
 	public String getData(Model model)
 	{
 		Student std = new Student();

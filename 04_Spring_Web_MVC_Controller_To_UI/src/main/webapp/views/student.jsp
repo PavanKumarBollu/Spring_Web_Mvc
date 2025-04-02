@@ -8,10 +8,10 @@
 <body>
 <h1>Student Info :: </h1>
 
-<table>
+<table border='2'>
 	<tr>
 		<td>Student ID </td>
-		<td>${std.sId}</td>
+		<td>${std.sid}</td>
 	</tr>
 	<tr>
 		<td>Student FirstName </td>
