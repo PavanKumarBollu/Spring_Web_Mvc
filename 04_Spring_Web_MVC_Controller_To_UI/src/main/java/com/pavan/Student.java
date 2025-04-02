@@ -1,16 +1,16 @@
 package com.pavan;
 
 public class Student {
-	private Integer sid;
+	private Integer sId;
 	private String fName;
 	private String lName;
 	private String city;
 	private String dob;
 	public Integer getSid() {
-		return sid;
+		return sId;
 	}
 	public void setSid(Integer sid) {
-		this.sid = sid;
+		this.sId = sid;
 	}
 	public String getfName() {
 		return fName;
@@ -38,7 +38,7 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [sid=" + sid + ", fName=" + fName + ", lName=" + lName + ", city=" + city + ", dob=" + dob
+		return "Student [sid=" + sId + ", fName=" + fName + ", lName=" + lName + ", city=" + city + ", dob=" + dob
 				+ "]";
 	}
 	

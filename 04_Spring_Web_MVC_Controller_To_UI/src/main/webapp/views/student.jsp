@@ -6,6 +6,31 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> ${msg}</h1>
+<h1>Student Info :: </h1>
+
+<table>
+	<tr>
+		<td>Student ID </td>
+		<td>${std.sId}</td>
+	</tr>
+	<tr>
+		<td>Student FirstName </td>
+		<td>${std.fName}</td>
+	</tr>
+	<tr>
+		<td>Student LastName </td>
+		<td>${std.lName}</td>
+	</tr>
+	<tr>
+		<td>Student Date Of Birth </td>
+		<td>${std.dob}</td>
+	</tr>
+	<tr>
+		<td>Student City </td>
+		<td>${std.city}</td>
+	</tr>
+	
+</table>
+
 </body>
 </html>
