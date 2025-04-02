@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class SingleQueryController {
 
 	@GetMapping("/std")
-	public String course(@RequestParam String name, Model model)
+	public String course(@RequestParam("name") String name, Model model)
 	{
-		model.addAttribute("query" , name + "Welcome to Java Advance Course....");
+		model.addAttribute("query" , name + " Welcome to Java Advance Course....");
 		
 		
 		return "course";
