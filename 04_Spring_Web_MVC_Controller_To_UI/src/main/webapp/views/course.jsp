@@ -6,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Student Info :: </h1>
+	<h1>Course Info :: </h1>
 
 	<table border='2'>
 		<tr>
