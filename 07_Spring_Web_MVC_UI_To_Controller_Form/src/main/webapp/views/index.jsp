@@ -6,20 +6,20 @@
 <title>Book Store</title>
 </head>
 <body>
-	<h1>Course Info :: </h1>
+	<h1>Book Info :: </h1>
 
 		<table border='2'>
 			<tr>
-				<td>Course ID </td>
-				<td>${courseId}</td>
+				<td>Book Name </td>
+				<td><input type = "text" name="bname" /></td>
 			</tr>
 			<tr>
-				<td>Course Name </td>
-				<td>${courseName}</td>
+				<td>Book Author </td>
+				<td><input type = "text" name="author" /></td>
 			</tr>
 			<tr>
-				<td>Course Duration </td>
-				<td>${duration}</td>
+				<td>Book Price </td>
+				<td><input type = "text" name="price" /></td>
 			</tr>
 			
 			
