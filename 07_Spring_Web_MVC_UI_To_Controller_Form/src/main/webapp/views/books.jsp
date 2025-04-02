@@ -10,18 +10,17 @@
 
 	<table border='2'>
 		<tr>
-			<td>Course ID </td>
-			<td>${courseId}</td>
+			<td>Book Name </td>
+			<td></td>
 		</tr>
 		<tr>
-			<td>Course Name </td>
-			<td>${courseName}</td>
+			<td>Book Author </td>
+			<td></td>
 		</tr>
 		<tr>
-			<td>Course Duration </td>
-			<td>${duration}</td>
+			<td>Book Price </td>
+			<td></td>
 		</tr>
-		
 		
 	</table>
 </body>
