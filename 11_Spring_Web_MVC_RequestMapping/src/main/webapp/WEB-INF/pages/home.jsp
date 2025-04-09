@@ -7,8 +7,8 @@
 <title>Home Page</title>
 </head>
 <body>
-<div style='display:flex;flex-direction:coulmn;justify-content:center;align-item:center'>
-	<form action='report' method='Post'>
+<div style='display:flex;justify-content:center;align-item:center'>
+	<form action='report' method='Post' style='display:block'>
 	<input type='submit' value='submitPost'/>
 	</form> 
 	
