@@ -7,6 +7,6 @@
 <title>Index Page</title>
 </head>
 <body>
-	<jsp:forward page="welcome"/>
+	<jsp:forward page="/welcome"/>
 </body>
 </html>
