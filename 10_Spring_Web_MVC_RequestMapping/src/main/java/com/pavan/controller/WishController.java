@@ -53,14 +53,14 @@ public class WishController {
 	 */
 	
 	
-	@RequestMapping(value="/wish")
-	public void generateMsg(HttpServletResponse response) throws IOException
-	{
-		response.setContentType("text/html");
-		PrintWriter writer = response.getWriter();
-		
-		writer.println("<b> Wish Message : " + service.generateWishMsg() +"</b> "  );
-	}
+	/*
+	 * @RequestMapping(value="/wish") public void generateMsg(HttpServletResponse
+	 * response) throws IOException { response.setContentType("text/html");
+	 * PrintWriter writer = response.getWriter();
+	 * 
+	 * writer.println("<b> Wish Message : " + service.generateWishMsg() +"</b> " );
+	 * }
+	 */
 	
 	
 }
