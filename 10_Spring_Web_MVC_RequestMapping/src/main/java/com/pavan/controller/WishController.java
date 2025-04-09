@@ -2,8 +2,8 @@ package com.pavan.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.pavan.service.IWishMessageService;
 
@@ -28,5 +28,17 @@ public class WishController {
 	 * 
 	 * return model; }
 	 */
+	
+	@RequestMapping(value="/wish")
+	public String generateMsg(Model model)
+	{
+		String wishMsg = service.generateWishMsg();
+		model.addAttribute("msg", wishMsg);
+		return "display";
+	}
+	
+	
+	
+	
 	
 }
