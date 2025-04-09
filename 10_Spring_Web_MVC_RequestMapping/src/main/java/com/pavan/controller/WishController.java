@@ -20,16 +20,13 @@ public class WishController {
 		return "home";
 	}
 	
-	@RequestMapping(value="/wish")
-	public ModelAndView generateMsg()
-	{
-		ModelAndView model = new ModelAndView();
-		String wishMsg = service.generateWishMsg();
-		model.addObject("msg", wishMsg);
-		model.setViewName("display");
-		
-		return model;
-	}
-	
+	/*
+	 * @RequestMapping(value="/wish") public ModelAndView generateMsg() {
+	 * ModelAndView model = new ModelAndView(); String wishMsg =
+	 * service.generateWishMsg(); model.addObject("msg", wishMsg);
+	 * model.setViewName("display");
+	 * 
+	 * return model; }
+	 */
 	
 }
