@@ -38,10 +38,18 @@ public class WishController {
 	 * wishMsg); return "display"; }
 	 */
 	
-	
+	@RequestMapping(value="/wish")
 	public String generateMsg(Map<String, Object> model)
 	{
+		model.put("msg", service.generateWishMsg());
 		return "display";
+	}
+	
+	@RequestMapping(value="/display")
+	public void generateMsg1(Map<String,Object> model)
+	{
+		model.put("msg", service.generateWishMsg());
+		
 	}
 	
 	
