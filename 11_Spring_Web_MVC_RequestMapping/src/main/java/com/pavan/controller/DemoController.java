@@ -34,6 +34,7 @@ public class DemoController {
 	@GetMapping(value= {"/report1","/allreport","/reports",})
 	public String showReportsGeneral(Map<String, Object> model)
 	{
+		model.put("msg", "Genaral Handler of report for all the other request URI's");
 		return "display";
 	}
 	

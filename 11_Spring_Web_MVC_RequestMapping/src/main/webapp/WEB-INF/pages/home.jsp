@@ -12,9 +12,9 @@
 	<input type='submit' value='submitPost'/>
 	</form> 
 	
-	<a href='report'>SubmitGet</a>
-	<a href='report1'>report1</a>
-	<a href='allreport'>allreport</a>
+	<a href='report'>SubmitGet</a><br/>
+	<a href='report1'>report1</a><br/>
+	<a href='allreport'>allreport</a><br/>
 	<a href='reports'>reports</a>
 </div>
 	
