@@ -2,6 +2,8 @@ package com.pavan.service;
 
 import java.time.LocalDateTime;
 
+import org.springframework.stereotype.Service;
+@Service
 public class WishMessageServiceImpl implements IWishMessageService {
 
 	@Override
