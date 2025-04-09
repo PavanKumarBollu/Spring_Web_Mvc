@@ -13,6 +13,9 @@
 	</form> 
 	
 	<a href='report'>SubmitGet</a>
+	<a href='report1'>report1</a>
+	<a href='allreport'>allreport</a>
+	<a href='reports'>reports</a>
 </div>
 	
 </body>
