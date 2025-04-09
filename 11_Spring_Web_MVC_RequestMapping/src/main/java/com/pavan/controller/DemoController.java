@@ -12,4 +12,13 @@ public class DemoController {
 	{
 		return "home";
 	}
+	
+	@GetMapping(value="report")
+	public String showReport(Map<String, Object>)
+	{
+		return "display";
+	}
+	
+	
+	
 }
